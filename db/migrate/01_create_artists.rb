@@ -1,8 +1,7 @@
 class CreateArtists < ActiveRecord::Migration
   def change
-    # create_tabel :artists do |t|
-    #   t.string :name
-    #   t.interger :
-    # end
+    create_table :artists do |t|
+      t.string :name
+    end
   end
 end
